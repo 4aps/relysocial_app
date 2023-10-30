@@ -29,7 +29,8 @@ If you are developing a production application, we recommend updating the config
 
 ###Some used commnands
 
-```1> npm create vite@latest ./
+```
+1> npm create vite@latest ./
 2> npx tailwindcss init  
 3> npm install -D tailwindcss
 4> npx tailwindcss init -p 
