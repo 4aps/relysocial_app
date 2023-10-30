@@ -49,4 +49,5 @@ If you are developing a production application, we recommend updating the config
 17> npx shadcn-ui@latest add button 
 18> npm i react-router-dom 
 19> npm i react-intersection-observer  
-20> npm run dev```
+20> npm run dev
+```
