@@ -82,10 +82,10 @@ Replace the placeholders with your actual Appwrite credentials.
 ▶️ Run the App
 
 ```
-npm start
+npm run dev
 ```
 
-Visit http://localhost:3000 in your browser.
+Visit http://localhost:5173/ in your browser.
 
 
 Special Thanks to JSM and Team!
