@@ -1,4 +1,3 @@
-````markdown
 # 🌐 Rely Social App
 
 A fully functional and visually appealing **social media application**, built with modern web technologies like **React**, **TypeScript**, and **Appwrite**. This project demonstrates real-world full-stack implementation with features like authentication, post interaction, responsive design, and efficient data handling.
@@ -65,13 +64,11 @@ Ensure the following are installed:
 
 ```bash
 npm install
-````
 
-### 🛠️ Set Up Environment Variables
 
-Create a `.env` file at the root of your project with the following content:
+🛠️ Set Up Environment Variables
+Create a .env file at the root of your project with the following content:
 
-```env
 VITE_APPWRITE_URL=
 VITE_APPWRITE_PROJECT_ID=
 VITE_APPWRITE_DATABASE_ID=
@@ -79,38 +76,35 @@ VITE_APPWRITE_STORAGE_ID=
 VITE_APPWRITE_USER_COLLECTION_ID=
 VITE_APPWRITE_POST_COLLECTION_ID=
 VITE_APPWRITE_SAVES_COLLECTION_ID=
-```
 
-> Replace the placeholders with your actual Appwrite credentials.
+Replace the placeholders with your actual Appwrite credentials.
 
-### ▶️ Run the App
+▶️ Run the App
 
-```bash
 npm start
-```
+Visit http://localhost:3000 in your browser.
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 🕸️ Snippets
-
+🕸️ Snippets
 Important files and helpers used in the project:
 
-* `constants/index.ts`
-* `globals.css`
-* `queryKeys.ts`
-* `tailwind.config.js`
-* `types/index.ts`
-* `useDebounce.ts`
-* `utils.ts`
 
----
 
-## 🚀 More
+globals.css
 
+tailwind.config.js
+
+queryKeys.ts
+
+constants/index.ts
+
+useDebounce.ts
+
+utils.ts
+
+types/index.ts
+
+
+
+🚀 More
 Enjoyed building or exploring this project? Take the opportunity to extend its functionality, integrate advanced state management, improve accessibility, or even port it to mobile using tools like React Native or Expo.
 
----
-
-```
