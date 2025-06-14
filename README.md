@@ -104,7 +104,3 @@ utils.ts
 types/index.ts
 
 
-
-🚀 More
-Enjoyed building or exploring this project? Take the opportunity to extend its functionality, integrate advanced state management, improve accessibility, or even port it to mobile using tools like React Native or Expo.
-
