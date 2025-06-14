@@ -65,10 +65,11 @@ Ensure the following are installed:
 ```bash
 npm install
 
-
+```
 🛠️ Set Up Environment Variables
 Create a .env file at the root of your project with the following content:
 
+```
 VITE_APPWRITE_URL=
 VITE_APPWRITE_PROJECT_ID=
 VITE_APPWRITE_DATABASE_ID=
@@ -76,18 +77,22 @@ VITE_APPWRITE_STORAGE_ID=
 VITE_APPWRITE_USER_COLLECTION_ID=
 VITE_APPWRITE_POST_COLLECTION_ID=
 VITE_APPWRITE_SAVES_COLLECTION_ID=
+```
 
 Replace the placeholders with your actual Appwrite credentials.
 
 ▶️ Run the App
 
+```
 npm start
+```
+
 Visit http://localhost:3000 in your browser.
 
 🕸️ Snippets
 Important files and helpers used in the project:
 
-
+```
 
 globals.css
 
@@ -104,6 +109,7 @@ utils.ts
 types/index.ts
 
 ```
+
 
 Special Thanks to JSM and Team!
 
