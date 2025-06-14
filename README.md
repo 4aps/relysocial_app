@@ -1,34 +1,116 @@
-# React + TypeScript + Vite
+````markdown
+# 🌐 Rely Social App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional and visually appealing **social media application**, built with modern web technologies like **React**, **TypeScript**, and **Appwrite**. This project demonstrates real-world full-stack implementation with features like authentication, post interaction, responsive design, and efficient data handling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Table of Contents
 
-## Expanding the ESLint configuration
+- [🤖 Introduction](#-introduction)  
+- [⚙️ Tech Stack](#-tech-stack)  
+- [🔋 Features](#-features)  
+- [🤸 Quick Start](#-quick-start)  
+- [🕸️ Snippets](#-snippets)  
+- [🚀 More](#-more)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🤖 Introduction
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+**Rely Social App** is a modern social media platform where users can create, explore, like, save, and manage posts. It offers a clean interface, smooth performance through **React Query**, and robust backend services via **Appwrite**. Built with scalability and responsiveness in mind, the app delivers a mobile-friendly experience with intuitive navigation and strong user privacy features.
+
+---
+
+## ⚙️ Tech Stack
+
+- **React.js**
+- **Appwrite** (BaaS)
+- **React Query (Tanstack Query)**
+- **TypeScript**
+- **Tailwind CSS**
+- **Shadcn/UI**
+
+---
+
+## 🔋 Features
+
+- 🔐 **Authentication System** – Secure user login and signup with data protection
+- 🧭 **Explore Page** – Discover trending content and top creators
+- ❤️ **Like & Save Posts** – Interact with posts and manage your favorites
+- 📄 **Post Details Page** – View full post content with related suggestions
+- 🙍 **User Profiles** – View and manage profile information and liked posts
+- 🧑‍🤝‍🧑 **Browse Users** – Explore other users and their activity
+- ✍️ **Create Post** – Drag & drop post creation with file storage
+- ✏️ **Edit Post** – Modify post content anytime
+- 📱 **Responsive UI + Bottom Bar** – Mobile-friendly navigation and layout
+- ⚡ **React Query** – Caching, parallel queries, and mutations for performance
+- 🔙 **Appwrite Backend** – Handles auth, database, storage, and collections
+
+And much more — including clean code architecture and modular design.
+
+---
+
+## 🤸 Quick Start
+
+### ✅ Prerequisites
+
+Ensure the following are installed:
+
+- **Git**
+- **Node.js**
+- **npm**
+
+### 📦 Install Dependencies
+
+```bash
+npm install
+````
+
+### 🛠️ Set Up Environment Variables
+
+Create a `.env` file at the root of your project with the following content:
+
+```env
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_STORAGE_ID=
+VITE_APPWRITE_USER_COLLECTION_ID=
+VITE_APPWRITE_POST_COLLECTION_ID=
+VITE_APPWRITE_SAVES_COLLECTION_ID=
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+> Replace the placeholders with your actual Appwrite credentials.
 
+### ▶️ Run the App
 
-###Some used commnands
-
+```bash
+npm start
 ```
-1> npm i
+
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🕸️ Snippets
+
+Important files and helpers used in the project:
+
+* `constants/index.ts`
+* `globals.css`
+* `queryKeys.ts`
+* `tailwind.config.js`
+* `types/index.ts`
+* `useDebounce.ts`
+* `utils.ts`
+
+---
+
+## 🚀 More
+
+Enjoyed building or exploring this project? Take the opportunity to extend its functionality, integrate advanced state management, improve accessibility, or even port it to mobile using tools like React Native or Expo.
+
+---
+
 ```
