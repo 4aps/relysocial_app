@@ -10,8 +10,6 @@ A fully functional and visually appealing **social media application**, built wi
 - [⚙️ Tech Stack](#-tech-stack)  
 - [🔋 Features](#-features)  
 - [🤸 Quick Start](#-quick-start)  
-- [🕸️ Snippets](#-snippets)  
-- [🚀 More](#-more)
 
 ---
 
@@ -88,27 +86,6 @@ npm start
 ```
 
 Visit http://localhost:3000 in your browser.
-
-🕸️ Snippets
-Important files and helpers used in the project:
-
-```
-
-globals.css
-
-tailwind.config.js
-
-queryKeys.ts
-
-constants/index.ts
-
-useDebounce.ts
-
-utils.ts
-
-types/index.ts
-
-```
 
 
 Special Thanks to JSM and Team!
