@@ -88,5 +88,5 @@ npm run dev
 Visit http://localhost:5173/ in your browser.
 
 
-Special Thanks to JSM and Team!
+Special Thanks to JavaScriptMastery {JSM} and Team!
 
